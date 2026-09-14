@@ -1,0 +1,25 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local datasets / generated databases
+danbooru.duckdb
+*.duckdb.wal
+posts.parquet
+*.parquet
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Editor / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local caches
+.cache/
+*.log

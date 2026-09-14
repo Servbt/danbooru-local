@@ -1,0 +1,5 @@
+Flask>=3.0
+duckdb>=1.0
+pyarrow
+google-cloud-bigquery
+google-cloud-bigquery-storage
